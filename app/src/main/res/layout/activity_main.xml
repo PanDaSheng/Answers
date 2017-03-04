@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="24sp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn01"
+
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/btn02"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:text="@string/cheat_btn"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:drawableRight="@drawable/arrow_right"
+        android:text="@string/btn_next"
+        android:textSize="20sp"/>
+
+</LinearLayout>

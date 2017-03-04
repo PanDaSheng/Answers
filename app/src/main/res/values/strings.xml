@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Answers</string>
+    //按钮文字
+    <string name="btn01">正确</string>
+    <string name="btn02">错误</string>
+    <string name="btn_next">下一题</string>
+    //判断文字
+    <string name="y_toast">恭喜你答对了！</string>
+    <string name="n_toast">很抱歉你答错了！</string>
+    //问题
+    <string name="question_plus01">18 + 20 = 38</string>
+    <string name="question_plus02">6 + 13 = 22</string>
+    <string name="question_plus03">5 + 109 = 114</string>
+    <string name="question_plus04">7 + 46 = 54</string>
+
+    <string name="warning_text">自己再想想?</string>
+    <string name="show_answer_btn">告诉你答案吧</string>
+    <string name="cheat_btn">看答案</string>
+    <string name="judgment_toast">你已经看了答案了！</string>
+</resources>
